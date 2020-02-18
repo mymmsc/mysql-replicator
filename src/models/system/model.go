@@ -3,8 +3,8 @@ package system
 import (
 	"fmt"
 	"github.com/siddontang/go-mysql/mysql"
-	"horgh-replicator/src/constants"
-	"horgh-replicator/src/tools/exit"
+	"github.com/mymmsc/mysql-replicator/src/constants"
+	"github.com/mymmsc/mysql-replicator/src/tools/exit"
 	"io/ioutil"
 	"os"
 	"strconv"

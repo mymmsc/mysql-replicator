@@ -6,9 +6,9 @@ import (
 	_ "github.com/jmoiron/sqlx"
 	_ "github.com/lib/pq"
 	"github.com/siddontang/go-log/log"
-	"horgh-replicator/src/constants"
-	"horgh-replicator/src/helpers"
-	"horgh-replicator/src/tools/exit"
+	"github.com/mymmsc/mysql-replicator/src/constants"
+	"github.com/mymmsc/mysql-replicator/src/helpers"
+	"github.com/mymmsc/mysql-replicator/src/tools/exit"
 	"strconv"
 )
 

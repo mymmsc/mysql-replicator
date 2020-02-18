@@ -2,10 +2,10 @@ package master
 
 import (
 	"github.com/siddontang/go-mysql/mysql"
-	"horgh-replicator/src/constants"
-	"horgh-replicator/src/helpers"
-	"horgh-replicator/src/models/system"
-	"horgh-replicator/src/tools/exit"
+	"github.com/mymmsc/mysql-replicator/src/constants"
+	"github.com/mymmsc/mysql-replicator/src/helpers"
+	"github.com/mymmsc/mysql-replicator/src/models/system"
+	"github.com/mymmsc/mysql-replicator/src/tools/exit"
 	"strconv"
 	"strings"
 )

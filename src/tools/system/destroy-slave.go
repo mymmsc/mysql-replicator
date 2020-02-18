@@ -3,11 +3,11 @@ package system
 import (
 	"github.com/siddontang/go-log/log"
 	"github.com/spf13/cobra"
-	"horgh-replicator/src/constants"
-	helpers2 "horgh-replicator/src/helpers"
-	"horgh-replicator/src/models/slave"
-	"horgh-replicator/src/tools/exit"
-	"horgh-replicator/src/tools/helpers"
+	"github.com/mymmsc/mysql-replicator/src/constants"
+	helpers2 "github.com/mymmsc/mysql-replicator/src/helpers"
+	"github.com/mymmsc/mysql-replicator/src/models/slave"
+	"github.com/mymmsc/mysql-replicator/src/tools/exit"
+	"github.com/mymmsc/mysql-replicator/src/tools/helpers"
 )
 
 var CmdDestroyTable = &cobra.Command{

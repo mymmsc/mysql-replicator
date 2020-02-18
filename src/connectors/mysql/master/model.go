@@ -1,8 +1,8 @@
 package master
 
 import (
-	"horgh-replicator/src/models/slave"
-	"horgh-replicator/src/tools/exit"
+	"github.com/mymmsc/mysql-replicator/src/models/slave"
+	"github.com/mymmsc/mysql-replicator/src/tools/exit"
 )
 
 type Model struct {

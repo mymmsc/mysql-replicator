@@ -2,12 +2,12 @@ package master
 
 import (
 	"database/sql"
-	"horgh-replicator/src/connectors/mysql"
-	mysqlMaster "horgh-replicator/src/connectors/mysql/master"
-	"horgh-replicator/src/connectors/postgresql"
-	postgresqlMaster "horgh-replicator/src/connectors/postgresql/master"
-	"horgh-replicator/src/constants"
-	"horgh-replicator/src/helpers"
+	"github.com/mymmsc/mysql-replicator/src/connectors/mysql"
+	mysqlMaster "github.com/mymmsc/mysql-replicator/src/connectors/mysql/master"
+	"github.com/mymmsc/mysql-replicator/src/connectors/postgresql"
+	postgresqlMaster "github.com/mymmsc/mysql-replicator/src/connectors/postgresql/master"
+	"github.com/mymmsc/mysql-replicator/src/constants"
+	"github.com/mymmsc/mysql-replicator/src/helpers"
 	"os"
 )
 

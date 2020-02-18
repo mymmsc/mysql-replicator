@@ -1,8 +1,8 @@
 package tools
 
 import (
-	"horgh-replicator/src/constants"
-	"horgh-replicator/src/tools/exit"
+	"github.com/mymmsc/mysql-replicator/src/constants"
+	"github.com/mymmsc/mysql-replicator/src/tools/exit"
 	"os"
 	"os/signal"
 	"syscall"

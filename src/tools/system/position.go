@@ -3,7 +3,7 @@ package system
 import (
 	"github.com/siddontang/go-mysql/mysql"
 	"github.com/spf13/cobra"
-	helpers2 "horgh-replicator/src/tools/helpers"
+	helpers2 "github.com/mymmsc/mysql-replicator/src/tools/helpers"
 	"strconv"
 )
 

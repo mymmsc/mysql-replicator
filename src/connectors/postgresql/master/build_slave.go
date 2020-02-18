@@ -1,8 +1,8 @@
 package master
 
 import (
-	"horgh-replicator/src/models/slave"
-	toolsHelper "horgh-replicator/src/tools/helpers"
+	"github.com/mymmsc/mysql-replicator/src/models/slave"
+	toolsHelper "github.com/mymmsc/mysql-replicator/src/tools/helpers"
 )
 
 func buildModel(tableName string) {

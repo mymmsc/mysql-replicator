@@ -2,8 +2,8 @@ package helpers
 
 import (
 	"fmt"
-	"horgh-replicator/src/constants"
-	"horgh-replicator/src/tools/exit"
+	"github.com/mymmsc/mysql-replicator/src/constants"
+	"github.com/mymmsc/mysql-replicator/src/tools/exit"
 	"os"
 	"reflect"
 )

@@ -2,7 +2,7 @@ package system
 
 import (
 	"github.com/spf13/cobra"
-	master2 "horgh-replicator/src/models/master"
+	master2 "github.com/mymmsc/mysql-replicator/src/models/master"
 )
 
 var CmdListen = &cobra.Command{

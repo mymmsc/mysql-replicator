@@ -3,8 +3,8 @@ package system
 import (
 	"github.com/siddontang/go-log/log"
 	"github.com/spf13/cobra"
-	"horgh-replicator/src/helpers"
-	"horgh-replicator/src/models/master"
+	"github.com/mymmsc/mysql-replicator/src/helpers"
+	"github.com/mymmsc/mysql-replicator/src/models/master"
 	"math/rand"
 	"strconv"
 	"time"

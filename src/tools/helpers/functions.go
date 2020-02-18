@@ -2,11 +2,11 @@ package helpers
 
 import (
 	"github.com/siddontang/go-log/log"
-	"horgh-replicator/src/constants"
-	"horgh-replicator/src/helpers"
-	"horgh-replicator/src/models/slave"
-	"horgh-replicator/src/models/system"
-	"horgh-replicator/src/tools/exit"
+	"github.com/mymmsc/mysql-replicator/src/constants"
+	"github.com/mymmsc/mysql-replicator/src/helpers"
+	"github.com/mymmsc/mysql-replicator/src/models/slave"
+	"github.com/mymmsc/mysql-replicator/src/models/system"
+	"github.com/mymmsc/mysql-replicator/src/tools/exit"
 	"time"
 )
 

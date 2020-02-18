@@ -2,11 +2,11 @@ package main
 
 import (
 	"github.com/spf13/cobra"
-	"horgh-replicator/src/helpers"
-	"horgh-replicator/src/models/master"
-	"horgh-replicator/src/models/slave"
-	"horgh-replicator/src/tools"
-	"horgh-replicator/src/tools/system"
+	"github.com/mymmsc/mysql-replicator/src/helpers"
+	"github.com/mymmsc/mysql-replicator/src/models/master"
+	"github.com/mymmsc/mysql-replicator/src/models/slave"
+	"github.com/mymmsc/mysql-replicator/src/tools"
+	"github.com/mymmsc/mysql-replicator/src/tools/system"
 )
 
 func main() {
@@ -15,7 +15,7 @@ func main() {
 	slave.MakeSlavePool()
 	tools.MakeHandler()
 
-	var rootCmd = &cobra.Command{Use: "horgh-replicator"}
+	var rootCmd = &cobra.Command{Use: "mysql-replicator"}
 	rootCmd.AddCommand(
 		system.CmdListen,
 		system.CmdLoad,

@@ -2,10 +2,10 @@ package slave
 
 import (
 	"fmt"
-	"horgh-replicator/src/connectors"
-	"horgh-replicator/src/connectors/mysql"
-	"horgh-replicator/src/constants"
-	"horgh-replicator/src/helpers"
+	"github.com/mymmsc/mysql-replicator/src/connectors"
+	"github.com/mymmsc/mysql-replicator/src/connectors/mysql"
+	"github.com/mymmsc/mysql-replicator/src/constants"
+	"github.com/mymmsc/mysql-replicator/src/helpers"
 	"strings"
 )
 

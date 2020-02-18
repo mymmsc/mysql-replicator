@@ -3,10 +3,10 @@ package master
 import (
 	"github.com/siddontang/go-log/log"
 	"github.com/siddontang/go-mysql/canal"
-	"horgh-replicator/src/connectors"
-	"horgh-replicator/src/constants"
-	"horgh-replicator/src/models/slave"
-	"horgh-replicator/src/plugins"
+	"github.com/mymmsc/mysql-replicator/src/connectors"
+	"github.com/mymmsc/mysql-replicator/src/constants"
+	"github.com/mymmsc/mysql-replicator/src/models/slave"
+	"github.com/mymmsc/mysql-replicator/src/plugins"
 	"strconv"
 	"time"
 )

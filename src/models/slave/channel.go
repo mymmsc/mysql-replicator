@@ -2,8 +2,8 @@ package slave
 
 import (
 	"github.com/siddontang/go-log/log"
-	"horgh-replicator/src/constants"
-	"horgh-replicator/src/helpers"
+	"github.com/mymmsc/mysql-replicator/src/constants"
+	"github.com/mymmsc/mysql-replicator/src/helpers"
 	"runtime"
 	"strconv"
 	"time"
